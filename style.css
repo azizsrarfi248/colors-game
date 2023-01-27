@@ -60,3 +60,7 @@ h1 {
 .btn-red-move {
   transform: translateY(-100px);
 }
+.hidden-btn-show {
+  position: relative;
+  z-index: 1;
+}
