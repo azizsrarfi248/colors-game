@@ -1,66 +1,67 @@
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
+  background-color: #403f3b;
 }
-h1 {
-  text-align: center;
-  font-size: 120px;
-}
+
+/* CONTAINER */
 .container {
+  text-align: center;
+  padding: 10rem;
   position: relative;
 }
 
+/* TITLE */
+#title {
+  color: white;
+  margin: 7%;
+  font-size: 350%;
+}
+
+/* ALL BUTTUNS */
 .btn {
   width: 6rem;
   height: 3rem;
-  margin-right: 1rem;
   margin-left: 1rem;
+  margin-right: 1rem;
   font-size: 1rem;
-}
-#geen-btn {
-  color: grey;
-  background-color: green;
-  border: 0.2rem cyan solid;
+  border-radius: 5px;
+  position: relative;
 }
 
-#blue-btn {
-  color: grey;
-  background-color: blue;
-  border: 0.2rem cyan solid;
-}
-#purple-btn {
-  color: grey;
-  background-color: purple;
-  border: 0.2rem cyan solid;
+/* COLORED BUTTONS */
+#green-btn {
+  color: rgb(174, 239, 77);
+  border: rgb(174, 239, 77) 2px solid;
+  background-color: green;
 }
 #yellow-btn {
-  color: grey;
+  color: rgb(180, 180, 66);
+  border: rgb(180, 180, 66) 2px solid;
   background-color: yellow;
-  border: 0.2rem cyan solid;
 }
-.btn-red {
-  width: 6rem;
-  height: 3rem;
-  margin-right: 1rem;
-  margin-left: 1rem;
-  font-size: 1rem;
-  color: gray;
-  background-color: red;
-  border: 0.2rem black solid;
+#blue-btn {
+  color: rgb(70, 210, 249);
+  border: rgb(70, 210, 249) 2px solid;
+  background-color: blue;
+}
+#purple-btn {
+  color: rgb(228, 64, 228);
+  border: rgb(228, 64, 228) 2px solid;
+  background-color: purple;
 }
 
-.showen-btn {
+/* RED BUTTONS */
+/* RED BUTTONS CONTAINER */
+.shown-btns {
   left: 0;
   right: 0;
   width: 100%;
   position: absolute;
   margin-top: -3rem;
 }
-.btn-red-move {
-  transform: translateY(-100px);
-}
-.hidden-btn-show {
-  position: relative;
-  z-index: 1;
+.red-btn {
+  color: rgb(124, 0, 0);
+  border: rgb(124, 0, 0) 2px solid;
+  background-color: red;
 }

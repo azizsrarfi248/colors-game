@@ -3,26 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>AZIZ'S RED BUTTON</title>
   </head>
   <body>
     <div class="container">
-      <h1 id="title">Change me into RED if you can !</h1>
-      <div class="hidden-btn">
-        <button id="geen-btn" class="btn" onclick="changeGreen()">GREEN</button>
-        <button id="purple-btn" class="btn" onclick="changePurple()">
-          PURPLE
+      <h1 id="title">CHANGE ME INTO RED IF U CAN !</h1>
+
+      <!-- HIDDEN BUTTONS -->
+      <div class="hidden-btns">
+        <button id="green-btn" class="btn" onclick="changeColor('green')">
+          GREEN
         </button>
-        <button id="yellow-btn" class="btn" onclick="changeYellow()">
+        <button id="yellow-btn" class="btn" onclick="changeColor('yellow')">
           YELLOW
         </button>
-        <button id="blue-btn" class="btn" onclick="changeBlue()">BLUE</button>
+        <button id="blue-btn" class="btn" onclick="changeColor('blue')">
+          BLUE
+        </button>
+        <button id="purple-btn" class="btn" onclick="changeColor('purple')">
+          PURPLE
+        </button>
       </div>
-      <div class="showen-btn">
-        <button class="btn-red" onclick="changeRed()">RED</button>
-        <button class="btn-red" onclick="changeRed()">RED</button>
-        <button class="btn-red" onclick="changeRed()">RED</button>
-        <button class="btn-red" onclick="changeRed()">RED</button>
+
+      <!-- RED BUTTONS -->
+      <div class="shown-btns">
+        <button class="btn red-btn" onclick="changeColor('red')">RED</button>
+        <button class="btn red-btn" onclick="changeColor('red')">RED</button>
+        <button class="btn red-btn" onclick="changeColor('red')">RED</button>
+        <button class="btn red-btn" onclick="changeColor('red')">RED</button>
       </div>
     </div>
     <script src="main.js"></script>
